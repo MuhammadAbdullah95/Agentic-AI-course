@@ -77,7 +77,7 @@ This course offers a hands-on, fast-paced introduction to Conversational, Genera
 ## ✅ Deliverables
 
 - 5+ Hands-on exercises
-- 3 Mini projects
+- 3 Mini projects   
 - 1 Final full-stack Agentic AI project
 - GitHub-ready portfolio repositories
 
