@@ -10,7 +10,7 @@ This beginner-friendly assignment helps you practice using:
 
 ## 📝 Task Description
 
-Create a Python program that:
+Create a Python program that: 
 
 1. Takes input marks for **Math**, **English**, and **Science**
 2. Calculates:
