@@ -1,0 +1,19 @@
+[project]
+name = "project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "muhammadabdullah95", email = "ma2404374@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "streamlit>=1.48.1",
+]
+
+[project.scripts]
+project = "project:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
