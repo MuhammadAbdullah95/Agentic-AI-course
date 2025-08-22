@@ -16,9 +16,9 @@ How to run
 	 .\.venv\Scripts\Activate.ps1; python -m pip install -r requirements.txt
 ```
 2. Run the app:
-
+```
 	 streamlit run app2.py
-
+```
 Alternative: use `uv` (a lightweight workflow helper included in this course)
 
 If your environment provides the `uv` helper, these are the common commands
