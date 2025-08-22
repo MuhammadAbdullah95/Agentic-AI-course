@@ -178,4 +178,4 @@ Python import rules
 
 ---
 
-If you'd like, I can also add short unit tests for `calculate.py` and `assignment_2_solutions.py`, or create a notebook that steps through each concept interactively.
+

@@ -303,8 +303,3 @@ git push origin --delete <branch>
 3. Practice interactive rebase to squash multiple commits into a clean change.
 
 ---
-
-If you want, I can also add:
-- A printable one-page cheat sheet with the most used commands.
-- Example `gitignore` templates for Python/Node projects.
-- A small script that automates a common workflow (create branch, push, open PR link).
