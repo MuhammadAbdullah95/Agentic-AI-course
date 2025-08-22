@@ -11,10 +11,10 @@ What you'll find
 
 How to run
 1. Create a virtual environment with Python 3.11+ and install requirements:
-
+```powershell
 	 python -m venv .venv
 	 .\.venv\Scripts\Activate.ps1; python -m pip install -r requirements.txt
-
+```
 2. Run the app:
 
 	 streamlit run app2.py
