@@ -1,4 +1,4 @@
-(The file `g:\Agentic-AI-course\week_3\readme.md` exists, but is empty)
+
 # Object-Oriented Programming (OOP) — Theory and Notes
 
 This README is a focused reference for students working through the
@@ -176,12 +176,3 @@ class Garage:
 3. Try the exercises in `exercises.md` and then run the `tests/run_tests.py`
    smoke checks.
 
-## Further reading
-
-- Python docs: data model and classes (special methods)
-- Any introductory OOP chapter in a Python book (e.g., "Fluent Python",
-  or online tutorials).
-
-If you want, I can expand this with: full example solutions, additional
-exercises with automated tests, or a short quiz for students. Tell me
-which and I will add it.

@@ -19,6 +19,47 @@ How to run
 
 	 streamlit run app2.py
 
+Alternative: use `uv` (a lightweight workflow helper included in this course)
+
+If your environment provides the `uv` helper, these are the common commands
+used in this project (Windows):
+
+1. Create a venv managed by `uv` (this initializes a local `.venv`):
+
+```powershell
+uv venv
+```
+
+2. Activate the created virtual environment (Windows PowerShell):
+
+```powershell
+.venv\Scripts\Activate.ps1
+# or if the helper created a different activate script
+.venv\Scripts\activate
+```
+
+3. Sync dependencies (install from requirements or uv lock file):
+
+```powershell
+uv sync
+```
+
+4. Run the Streamlit apps using `uv` shortcuts or directly:
+
+```powershell
+# Run app.py using streamlit directly
+streamlit run app.py
+
+# Or use uv to run Streamlit for app2
+uv run streamlit run app2.py
+```
+
+Notes:
+- `uv` is used in this repository as a convenience wrapper — if you don't
+	have it installed, use the `python -m venv` and `pip install -r requirements.txt` steps above.
+- The commands above assume a Windows PowerShell environment; adapt the
+	activate command for other shells (macOS/Linux: `source .venv/bin/activate`).
+
 Notes for students
 - The project demonstrates a simple BankAccount class that keeps the
 	balance private and exposes deposit/withdraw methods.
