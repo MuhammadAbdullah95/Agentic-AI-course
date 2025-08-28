@@ -1,6 +1,6 @@
 {
     "Rayyan": {
-        "balance": 1500,
+        "balance": 1900,
         "pin": "9595",
         "transactions": [
             {
@@ -15,6 +15,20 @@
                 "amount": 500,
                 "details": {
                     "from": "Ahmad"
+                }
+            },
+            {
+                "ts": "2025-08-22 23:02:44",
+                "type": "deposit",
+                "amount": 400,
+                "details": null
+            },
+            {
+                "ts": "2025-08-22 23:02:44",
+                "type": "transfer_in",
+                "amount": 400,
+                "details": {
+                    "from": "Abdul Rehman"
                 }
             }
         ]
@@ -33,6 +47,32 @@
                 "ts": "2025-08-22 17:03:20",
                 "type": "transfer_out",
                 "amount": 500,
+                "details": {
+                    "to": "Rayyan"
+                }
+            }
+        ]
+    },
+    "Abdul Rehman": {
+        "balance": 5600,
+        "pin": "1234",
+        "transactions": [
+            {
+                "ts": "2025-08-22 23:02:19",
+                "type": "deposit",
+                "amount": 5000,
+                "details": null
+            },
+            {
+                "ts": "2025-08-22 23:02:44",
+                "type": "withdraw",
+                "amount": 400,
+                "details": null
+            },
+            {
+                "ts": "2025-08-22 23:02:44",
+                "type": "transfer_out",
+                "amount": 400,
                 "details": {
                     "to": "Rayyan"
                 }
