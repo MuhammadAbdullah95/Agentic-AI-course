@@ -10,4 +10,5 @@ dependencies = []
 members = [
     "week_3/project",
     "week_5/fastapi_practice",
+    "week_6",
 ]
